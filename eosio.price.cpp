@@ -1,5 +1,6 @@
 #include "eosio.price.hpp"
 
+
 void bankprice::create(asset initprice) {
     require_auth( _self );
 
